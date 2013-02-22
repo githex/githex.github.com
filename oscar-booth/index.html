@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type" />
+		<title>Oscar Booth</title>
+		<link rel="stylesheet" type="text/css" href="../style.css" />
+		<script type="text/javascript">
+			
+			function changeScreen(imageName) {
+				document.getElementById('screen').style.background = imageName;
+			}
+			
+			</script>
+		
+	</head>
+	<body>
+		<div id="container">
+			<div id="left">
+				<div style="width:620px; height:240px; background:url(header_left.jpg)">
+				</div>
+				<div id="content-left">
+					<div style="padding-left:30px; padding-right:20px;">
+						<p style="margin:0px;">
+						You don't need to be a movie star to get an Oscar. There's an app for that. Tuxedo included, no need to rent!
+						</p>
+						<p>
+						Ok, so this app might not get you a real award, nor a tuxedo, but it will fabricate pictures of a person holding an award while wearing a tuxedo.
+						You can choose from photos stored on your iOS device or take one instantly if your device allows it. Different backgrounds are available and many other parameters to play with. You can share the fake pictures with your friends on Facebook or save them. The saved pictures are available to all other apps on your iOS device.
+						</p>
+						<p>
+						Inside the app, you'll find detailed information to guide you every step of the way.
+						</p>
+						<table style="margin:0px auto; border-spacing:50px 20px;"><tr>
+							<td><a href="https://itunes.apple.com/app/oscar-booth/id595937159?mt=8"><img src="../appstore_badge.png"></a></td>
+							<td><a href="http://www.facebook.com/pages/Oscar-Booth-Community/450023308402306"><img src="../facebook_badge.png"></a></td>
+						</tr></table>
+						<br />
+						<p style="font-size:smaller; margin:0px;">
+						Note: This app is not affiliated with, sponsored by, nor the responsibility of the Academy of Motion Picture Arts and Sciences (AMPAS). AMPAS is the owner of the Oscar(s)&reg;, Academy Award(s)&reg; and related trademarks.
+						</p>
+						<br />
+					</div>
+				</div>
+			</div>
+			<div id="right">
+				<div style="height:145px; background:url(../right_top.png);"></div>
+				<div style="float:left; width:26px; height:348px; background:url(../right_left.png);"></div>
+				<div id="screen" style="float:left; width:243px; height:348px; background:url(screen0.jpg);"></div>
+				<div style="float:left; width:51px; height:348px; background:url(../right_right.png);"></div>
+				<div style="clear:both;"></div><!--This <div> acts as a separator-->
+				<div style="height:143px; background:url(../right_bottom.png);">
+					<table></table><!--Bug fixer-->
+					<div style="width:296px; height:44px; margin-top:99px; margin-right:24px;">
+						<table style="margin:auto;" cellspacing="10"><tr>
+							<td><input style="margin:auto;" type="radio" name="group1" value="0" onClick="changeScreen('url(screen0.jpg)')" checked="on"></input></td>
+							<td><input style="margin:auto;" type="radio" name="group1" value="1" onClick="changeScreen('url(screen1.jpg)')"></input></td>
+							<td><input style="margin:auto;" type="radio" name="group1" value="2" onClick="changeScreen('url(screen2.jpg)')"></input></td>
+							<td><input style="margin:auto;" type="radio" name="group1" value="3" onClick="changeScreen('url(screen3.jpg)')"></input></td>
+							<td><input style="margin:auto;" type="radio" name="group1" value="4" onClick="changeScreen('url(screen4.jpg)')"></input></td>
+						</tr></table>
+					</div>
+				</div>
+			</div>
+			<div style="clear:both;"></div><!--This <div> acts as a separator-->
+			<div class="above-footer">
+			</div>
+			<div class="footer">
+				<table style="margin:0px auto 50px; font-size:smaller;">
+					<tr>
+						<td>&copy; 2013 Codrut Angelescu</td>
+						<td>&bull;</td>
+						<td onClick="document.location.href='../our-tos-privacy.html';" style="cursor:pointer;">Term of Use / Privacy Policy</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>

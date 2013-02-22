@@ -1,0 +1,38 @@
+html, body {
+margin:0px;
+padding:0px;
+color:black;
+}
+
+#container {
+width:940px;
+margin:auto;
+}
+
+#left {
+float:left;
+width:620px;
+}
+
+#content-left {
+width:620px;
+min-height:396px;
+background:url(gradient.png) 0px 0px repeat-x;
+}
+
+#right {
+float:left;
+width:320px;
+height:636px;
+}
+
+.above-footer {
+width:940px;
+height:11px;
+background:url(above_footer.png);
+}
+
+.footer {
+background:white;
+text-align:center;
+}
